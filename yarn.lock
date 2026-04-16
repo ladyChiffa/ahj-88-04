@@ -2285,6 +2285,11 @@ bare-url@^2.2.2:
   dependencies:
     bare-path "^3.0.0"
 
+baseline-browser-mapping@^2.10.19:
+  version "2.10.19"
+  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.10.19.tgz#7697721c22f94f66195d0c34299b1a91e3299493"
+  integrity sha512-qCkNLi2sfBOn8XhZQ0FXsT1Ki/Yo5P90hrkRamVFRS7/KV9hpfA4HkoWNU152+8w0zPjnxo5psx5NL3PSGgv5g==
+
 basic-auth@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/basic-auth/-/basic-auth-2.0.1.tgz"
@@ -2465,15 +2470,15 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001587:
-  version "1.0.30001611"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001611.tgz"
-  integrity sha512-19NuN1/3PjA3QI8Eki55N8my4LzfkMCRLgCVfrl/slbSAchQfV0+GwjPrK3rq37As4UCLlM/DHajbKkAqbv92Q==
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001587, caniuse-lite@^1.0.30001688:
+  version "1.0.30001788"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001788.tgz"
+  integrity sha512-6q8HFp+lOQtcf7wBK+uEenxymVWkGKkjFpCvw5W25cmMwEDU45p1xQFBQv8JDlMMry7eNxyBaR+qxgmTUZkIRQ==
 
-caniuse-lite@^1.0.30001688:
-  version "1.0.30001699"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001699.tgz"
-  integrity sha512-b+uH5BakXZ9Do9iK+CkDmctUSEqZl+SP056vc5usa0PL+ev5OHw003rZXcnjNDv3L8P5j6rwT6C0BPKSikW08w==
+caniuse-lite@^1.0.30001788:
+  version "1.0.30001788"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001788.tgz#31e97d1bfec332b3f2d7eea7781460c97629b3bf"
+  integrity sha512-6q8HFp+lOQtcf7wBK+uEenxymVWkGKkjFpCvw5W25cmMwEDU45p1xQFBQv8JDlMMry7eNxyBaR+qxgmTUZkIRQ==
 
 chalk@^2.4.2:
   version "2.4.2"
