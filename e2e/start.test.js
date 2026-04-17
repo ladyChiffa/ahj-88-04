@@ -16,12 +16,12 @@ describe('Page start', () => {
         page = await browser.newPage();
     });
 
-    afterEach( async () => {
-        await browser.close();
-    });
-
     test('test', async () => {
         await page.goto('http://localhost:8080');
+    });
+
+    afterEach( async () => {
+        await browser.close();
     });
 });
 
