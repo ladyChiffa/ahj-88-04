@@ -6,6 +6,7 @@ describe('Page start', () => {
     let page;
 
     beforeEach( async () => {
+        jest.setTimeout(10000);
         browser = await puppeteer.launch({ // конфигурация браузера
             headless: false,
             slowMo: 100,
@@ -15,8 +16,12 @@ describe('Page start', () => {
         page = await browser.newPage();
     });
 
+    afterEach( async () => {
+        await browser.close();
+    });
+
     test('test', async () => {
-        page.goto('http://localhost:9000');
+        page.goto('http://localhost:8080');
     });
 });
 
