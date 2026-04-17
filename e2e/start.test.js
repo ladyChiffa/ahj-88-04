@@ -21,7 +21,7 @@ describe('Page start', () => {
     });
 
     test('test', async () => {
-        page.goto('http://localhost:8080');
+        await page.goto('http://localhost:8080');
     });
 });
 
