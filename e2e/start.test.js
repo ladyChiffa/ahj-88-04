@@ -1,4 +1,4 @@
-import puppeteer from "puppeteer";
+import puppeteer from 'puppeteer';
 
 // describe - для группировки тестов
 describe('Page start', () => {
@@ -16,8 +16,10 @@ describe('Page start', () => {
         page = await browser.newPage();
     });
 
-    test('test', async () => {
+    test('page open', async () => {
         await page.goto('http://localhost:8080');
+
+        await page.waitFor('body');
     });
 
     afterEach( async () => {
